@@ -14,9 +14,16 @@
     </div>
     <div id="chat-box" class="chat-box"></div>
     <div class="form-wrapper">
-      <form id="chat-form">
-        <textarea id="user-input" placeholder="Tanyakan tentang perjalanan..." rows="1" required></textarea>
-        <button type="submit" class="send-btn">Kirim</button>
+      <form id="chat-form" class="chat-form">
+        <div class="input-pill">
+          <textarea id="user-input" placeholder="Tanyakan tentang perjalanan..." rows="1" required></textarea>
+          <button type="submit" class="send-btn" aria-label="Kirim">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+          </button>
+        </div>
       </form>
     </div>
   </div>
